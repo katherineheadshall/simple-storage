@@ -1,7 +1,7 @@
 ## simple-storage
 <p align="center">
-<br><a href="https://travis-ci.org/katherineheadshall/simple-storage">
-    <img src="https://travis-ci.org/katherineheadshall/simple-storage.svg?branch=master">
+<br><a href="https://travis-ci.com/katherineheadshall/simple-storage">
+    <img src="https://travis-ci.com/katherineheadshall/simple-storage.svg?branch=master">
     </a>
     <br>
     <br>
