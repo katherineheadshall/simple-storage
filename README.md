@@ -11,7 +11,11 @@
 ## Install
 
 ```
-$ npm install --save @katherineheadshall/simple-storage
+$ yarn add @katherineheadshall/simple-storage
+```
+or
+```
+npm i --save @katherineheadshall/simple-storage
 ```
 
 ## Usage
