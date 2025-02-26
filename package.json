@@ -1,6 +1,7 @@
 {
   "name": "@katherineheadshall/simple-storage",
-  "version": "1.0.2",
+  "version": "1.0.3",
+  "repository": {"url": "https://github.com/katherineheadshall/simple-storage"},
   "description": "Simple nodejs lib to handle localstorage",
   "author": "katherineheadshall",
   "main": "localstorage.js",
