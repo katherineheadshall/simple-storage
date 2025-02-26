@@ -1,0 +1,15 @@
+{
+  "name": "@katherineheadshall/simple-storage",
+  "version": "1.0.1",
+  "description": "Simple nodejs lib to handle localstorage",
+  "author": "katherineheadshall",
+  "main": "localstorage.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
