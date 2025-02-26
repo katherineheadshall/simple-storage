@@ -2,7 +2,7 @@
 
 A node module to help you manage locastorage data, it's tiny, well tested, and ready for production.
 
-## Legacy release
+> Legacy release, please reach github for release notes.
 
 ## Install
 
