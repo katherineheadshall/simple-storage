@@ -1,12 +1,6 @@
 ## simple-storage
-<p align="center">
-<br><a href="https://travis-ci.com/katherineheadshall/simple-storage">
-    <img src="https://travis-ci.com/katherineheadshall/simple-storage.svg?branch=main">
-    </a>
-    <br>
-    <br>
-    <b>A node module to help you manage locastorage data, it's tiny, well tested, and ready for production.</b>
-</p>
+
+A node module to help you manage locastorage data, it's tiny, well tested, and ready for production.
 
 ## Legacy release
 
