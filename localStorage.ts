@@ -10,7 +10,7 @@
  * @param {string} key the name you will give to your item name.
  * @param {string} value you can pass an object, but it need to be in an stringfy state, for example: set("item", JSON.stringify({object})).
  */
-const ktset = (key: string, value: string) => {
+export const ktset = (key: string, value: string) => {
     window.localStorage[key] = value;
     return window.localStorage[key];
 }
@@ -19,7 +19,7 @@ const ktset = (key: string, value: string) => {
  * @param {string} key should be an storage item name.
  * @param {string} defaultValue if no item is found you can provide an default value to be returned.
  */
-const ktget = (key: string, defaultValue: string) => {
+export const ktget = (key: string, defaultValue: string) => {
     return window.localStorage[key] || defaultValue;
 }
 /**
@@ -27,7 +27,7 @@ const ktget = (key: string, defaultValue: string) => {
  * @param {string} key the name you will give to your item name.
  * @param {Object} value can be an plain string, number or object.
  */
-const ktsetObject = (key: string, value: object) => {
+export const ktsetObject = (key: string, value: object) => {
     window.localStorage[key] = JSON.stringify(value);
     return ktgetObject(key);
 }
@@ -35,20 +35,20 @@ const ktsetObject = (key: string, value: object) => {
  * @description Allow you to get an item from the locastorage, the return value is the parsed already stored value.
  * @param {string} key the name of the already stored item.
  */
-const ktgetObject = (key: string) => {
+export const ktgetObject = (key: string) => {
     return (window.localStorage[key] !== undefined) ? JSON.parse(window.localStorage[key]) : null;
 }
 /**
  * @description Allow you to get an item from the locastorage, the return value is a string, if not found is null.
  * @param {string} key the name of the already stored item.
  */
-const ktgetUniqueKey = (key: string) => {
+export const ktgetUniqueKey = (key: string): string | null => {
     return (window.localStorage[key] !== undefined) ? window.localStorage[key] : null;
 }
 /**
  * @description Allow you to delete an item from the locastorage, the return value is always null.
  * @param {string} key the name of the already stored item.
  */
-const ktremove = (key: string): void => {
+export const ktremove = (key: string): void => {
     return window.localStorage.removeItem(key);
 }
