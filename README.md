@@ -7,7 +7,7 @@ A Typescrit written module to help you manage locastorage data, it's tiny, well 
 ## Install
 
 ```
-$ npm install --save @katherineheadshall/simple-storage
+$ pnpm i @katherineheadshall/simple-storage
 ```
 
 ## Usage
