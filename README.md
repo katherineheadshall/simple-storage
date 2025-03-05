@@ -40,14 +40,14 @@ ktget('key')
 
 `key` `:`  __`string`__
 
-| __`simple-storage-available-methods`__      | __`Output`__  |
-|---------------------------------------------|---------------|
+| __`simple-storage-available-methods`__        | __`Output`__  |
+|-----------------------------------------------|---------------|
 | __`ktget`__                                   | `string`      |
 | __`ktset`__                                   | `string`      |
 | __`ktsetObject`__                             | `any`         |
 | __`ktgetObject`__                             | `any`         |
 | __`ktgetUniqueKey`__                          | `string`      |
-| __`ktremove`__                                | `null`        |
+| __`ktremove`__                                | `undefined`   |
 
 ## Remove an already stored item
 
