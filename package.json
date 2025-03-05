@@ -2,7 +2,7 @@
   "name": "@katherineheadshall/simple-storage",
   "version": "2.0.0",
   "repository": {
-    "url": "https://github.com/katherineheadshall/simple-storage"
+    "url": "git+https://github.com/katherineheadshall/simple-storage.git"
   },
   "description": "Simple LocalStorage library written in TypeScript.",
   "author": "katherineheadshall",
